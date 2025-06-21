@@ -2,3 +2,5 @@
 *.tmp
 *.sqlite
 *.db
+*.db
+HW1/imdb-cmudb2022.db
