@@ -1,5 +1,7 @@
 # Project 0: HyperLogLog Implementation Report
 
+![Project 0 Result](p0_complete.png)
+
 ## Overview
 
 This report documents the implementation of two HyperLogLog variants in C++:
