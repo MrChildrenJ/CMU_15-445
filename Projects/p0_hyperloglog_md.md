@@ -118,21 +118,6 @@ if (n_bits < 0) {
 - **Unused variables:** Remove or properly utilize all declared variables
 - **Branch clone detection:** Restructure repeated conditional logic
 
-### 7. CMake Configuration Issues
-
-**Problem:** Submission system couldn't find implementation files.
-
-**Root Cause:** `P0_FILES` in CMakeLists.txt only included skiplist files.
-
-**Solution:**
-```cmake
-set(P0_FILES
-    "src/include/primer/hyperloglog.h"
-    "src/primer/hyperloglog.cpp"
-    "src/include/primer/hyperloglog_presto.h"
-    "src/primer/hyperloglog_presto.cpp"
-)
-```
 
 ## Key Learnings
 
