@@ -1,6 +1,6 @@
 # Project 0: HyperLogLog Implementation Report
 
-![Project 0 Result](p0_complete.png)
+![Project 0 Result](2024fall_p0_complete.png)
 
 ## Overview
 
