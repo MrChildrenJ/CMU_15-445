@@ -2,6 +2,9 @@
 
 ## Project Overview
 Implementation of CMU 15-445 (2025 Fall) Project 1 Task #2 - DiskScheduler, a component that schedules read/write operations on the DiskManager using a background worker thread.
+
+![Project 0 Result](./leaderboard.png)
+
 ![Project 0 Result](./2025fall_p1_complete.png)
 
 ---

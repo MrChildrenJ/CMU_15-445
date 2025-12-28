@@ -3,6 +3,8 @@
 
 ## Project Overview
 Implementation of CMU 15-445 (2025 Fall) Project 1 - ARC (Adaptive Replacement Cache) replacer for buffer pool management.
+
+![Project 0 Result](./leaderboard.png)
 ![Project 0 Result](./2025fall_p1_complete.png)
 ---
 

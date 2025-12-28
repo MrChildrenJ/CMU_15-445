@@ -2,6 +2,9 @@
 
 ## Project Overview
 Implementation of CMU 15-445 (2025 Fall) Project 1 Task #3 - BufferPoolManager, managing page cache buffer pool and eviction policy.
+
+![Project 0 Result](./leaderboard.png)
+
 ![Project 0 Result](./2025fall_p1_complete.png)
 
 ### Performance
