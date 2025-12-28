@@ -1,6 +1,6 @@
 # Count-Min Sketch Implementation Notes
 
-![Project 0 Result](2025fall_p0_complete.png)
+![Project 0 Result](./assets/2025fall_p0_complete.png)
 
 ## Project Overview
 Implementation of CMU 15-445 (2025 Fall) Project 0 - Count-Min Sketch data structure, a probabilistic data structure for estimating element frequencies.
@@ -180,7 +180,7 @@ for (size_t i = 0; i < std::min((size_t)k, res.size()); i++) {
 
 ---
 
-# Count-Min Sketch Implementation Notes (中文版)
+# Count-Min Sketch Implementation Notes (中文)
 
 ## 專案概述
 實作 CMU 15-445 (2025 Fall) Project 0 - Count-Min Sketch 資料結構，這是一個機率型資料結構，用於估計元素出現次數。
