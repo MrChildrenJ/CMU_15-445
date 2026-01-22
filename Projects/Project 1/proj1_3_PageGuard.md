@@ -231,6 +231,7 @@ PageGuard destructor/Drop()（unpin + unlatch）
 - 每個 PageGuard 代表 frame 上的一個 "pin"
 
 **與 ArcReplacer 同步：**
+
 | 元件 | 角色 |
 |------|------|
 | `FrameHeader::pin_count_` | 追蹤活躍存取者數量 |

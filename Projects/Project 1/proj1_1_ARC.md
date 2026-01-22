@@ -22,8 +22,9 @@ Implementation of CMU 15-445 (2025 Fall) Project 1 - ARC (Adaptive Replacement C
 | B2 | `mfu_ghost_` | Evicted from T2 | `page_id_t` | Ghost history for T2 |
 
 **Key Parameters:**
-- **p (mru_target_size_)**: Target size for T1, dynamically adjusted based on workload
-- **c (capacity)**: Maximum number of frames in buffer pool
+
+- **p (mru\_target\_size_)**: Target size for T1, dynamically adjusted based on workload
+- **c (capacity\_)**: Maximum number of frames in buffer pool
 
 **Critical Distinction:**
 - Alive lists (T1/T2): Use `frame_id_t` (frames exist in memory)
@@ -211,8 +212,9 @@ list.erase(forward_it);
 | B2 | `mfu_ghost_` | 從 T2 被淘汰 | `page_id_t` | T2 的幽靈歷史 |
 
 **關鍵參數：**
-- **p (mru_target_size_)**：T1 的目標大小，根據工作負載動態調整
-- **c (capacity)**：Buffer pool 中的最大 frame 數量
+
+- **p (mru\_target\_size_)**：T1 的目標大小，根據工作負載動態調整
+- **c (capacity\_)**：Buffer pool 中的最大 frame 數量
 
 **關鍵區別：**
 - Alive lists (T1/T2)：使用 `frame_id_t`（frame 存在於記憶體中）
@@ -238,7 +240,7 @@ list.erase(forward_it);
 
 **重要：** RecordAccess 不會呼叫 Evict() - 只管理 ghost list 大小
 
-### 3. mru_target_size_ (p) 的作用
+### 3. mru\_target\_size_ (p) 的作用
 
 **目的：**
 - 根據工作負載模式平衡 T1 和 T2 大小
