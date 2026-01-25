@@ -3,4 +3,5 @@
 *.sqlite
 *.db
 *.db
+.DS_Store
 HW1/imdb-cmudb2022.db
