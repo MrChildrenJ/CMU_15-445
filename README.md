@@ -1,0 +1,1 @@
+This is my record of completing the 2025 CMU 15-445 Database System course projects. Since I can't make the code public, I've documented it in note form instead. If you find it helpful, please don't hesitate to "star" it. If you really need it, I can also grant you access to my private bustub repo.
